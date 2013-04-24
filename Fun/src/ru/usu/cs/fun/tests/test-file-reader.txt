@@ -1,0 +1,61 @@
+let a := openReader "1.txt" "UTF-8";
+
+isEnd a;
+//>false
+
+readInt a;
+//>555
+
+readLine a;
+//>lalala
+
+readLine a;
+//>ololol
+
+readLine a;
+//>777
+
+isEnd a;
+//>false
+
+readLine a;
+//>maxim
+
+readLine a;
+//>shulga
+
+isEnd a;
+//>true
+
+let str1 := openString "maxim";
+
+isEnd str1;
+//>false
+
+readLine str1;
+//>maxim
+
+isEnd str1;
+//>true
+
+let str2 := openString "1994";
+
+isEnd str2;
+//>false
+
+readLine str2;
+//>1994
+
+isEnd str2;
+//>true
+
+let str3 := openString "1994";
+
+isEnd str3;
+//>false
+
+readInt str3;
+//>1994
+
+isEnd str3;
+//>true

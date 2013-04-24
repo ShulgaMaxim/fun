@@ -1,0 +1,53 @@
+"";
+//>
+
+"a";
+//>a
+
+"abcd";
+//>abcd
+
+"\"";
+//>"
+
+"\\";
+//>\
+
+"мама";
+//>мама
+
+"maxim\\nshulga";
+//>maxim\nshulga
+
+concat "a" "b";
+//>ab
+
+concat "max" "shulga";
+//>maxshulga
+
+concat "" "";
+//>
+
+concat "" "abba";
+//>abba
+
+concat "abba" "";
+//>abba
+
+len "abc";
+//>3
+
+len "";
+//>0
+
+len "\n";
+//>1
+
+substr "maxshulga" 3 9;
+//>shulga
+
+substr "hamburger" 4 8;
+//>urge
+
+substr "smiles" 1 5;
+//>mile
